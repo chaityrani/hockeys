@@ -30,14 +30,14 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a href="#">Home</a></li>
+                    <li class="text-red-600"><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Pages</a></li>
                     <li><a href="#">blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
               </div>
-              <h1 class="text-4xl text-extrabold font-extrabold">Hockeys</h1>
+              <h1 class="text-xl lg:text-4xl text-extrabold font-extrabold">Hockeys</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal text-xl px-1">
@@ -49,13 +49,18 @@
             </ul>
                
             </div>
-            <div class="navbar-end">
+            <div class="lg:navbar-end">
                 <i class="fa-solid fa-magnifying-glass mr-4"></i>
-              <a class="btn text-2xl text-white bg-red-600">Get Ticket</a>
+              <a class="btn m-6 text-white text-2xl  bg-red-600">Get Ticket</a>
             </div>
           </div>
     </header>
+
+  <!-- section start -->
+
     <main class="md:container md:mx-auto m-auto">
+
+      <!-- section-1 -->
      <section>
             <div class="carousel w-full h-full">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -72,21 +77,22 @@
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                
-               
-                
-              </div>
+            </div>
+            <div class="bg-black  w-[50%] p-8 rounded-lg relative bottom-60 left-[48%] mr-4 ">
+              <h2 class="text-3xl text-center text-white font-extrabold">Meet all the heroes from the field</h2>
+              <p class="text-xl text-center text-white mt-4">A hero is an ordinary individual who finds the strength to persevere and endure in spite of overwhelming obstacles".</p>
+            </div>
       </section>
 
       <section>
-            <div class="mt-20">
+            <div class=" m-2lg:mt-20">
                 <h2 class="text-3xl text-center font-extrabold">Professional Hockeys Club</h2>
                 <p class="text-xl text-center mt-4"> The game has many rules that need to be followed by each team so that a fair play can be conducted</p>
             </div>
       </section>
 
       <section>
-          <div class="flex lg:flex-row gap-2 justify-center items-center mt-14 ">
+          <div class=" flex flex-row gap-2 justify-center items-center mt-14 ">
             <div>
               <div class="radial-progress mx-32 text-red-700" style="--value:87;" role="progressbar"><span class="text-black font-extrabold">87%</span></div>
               <h2 class="text-2xl m-4 font-bold text-center ">Prayer Facility</h2>
@@ -173,7 +179,7 @@
           <div class="card card-side bg-base-100 shadow-xl">
             <figure><img src="./Images/7.png" alt="Movie"/></figure>
             <div class="card-body">
-              <div class="flex gap-3">
+              <div class="flex  gap-3">
                 <div><i class="fa-regular fa-star text-yellow-500"></i></div>
                 <div><p>5.0</p></div>
                 <div><i class="fa-regular fa-eye"></i></div>
@@ -377,21 +383,23 @@
           
 
         </nav> 
-        <nav>
-          <header class="footer-title">Company</header> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">leadership</a>
-          <a class="link link-hover">careers</a>
-          <a class="link link-hover">news and articles</a>
-          <a class="link link-hover">legal notice</a>
-        </nav> 
-        <nav>
-          <header class="footer-title">Support</header> 
-          <a class="link link-hover">help center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket support</a>
-          <a class="link link-hover">Contact us</a>
-        </nav>
+        
+          <nav>
+            <header class="footer-title">Company</header> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">leadership</a>
+            <a class="link link-hover">careers</a>
+            <a class="link link-hover">news and articles</a>
+            <a class="link link-hover">legal notice</a>
+          </nav> 
+          <nav>
+            <header class="footer-title">Support</header> 
+            <a class="link link-hover">help center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket support</a>
+            <a class="link link-hover">Contact us</a>
+          </nav>
+        
         <nav>
           <header class="footer-title">Services</header> 
           <a class="link link-hover">Academy  </a>
